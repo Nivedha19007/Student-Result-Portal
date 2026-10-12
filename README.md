@@ -43,12 +43,10 @@ For CGPA grading, use:
 Returns the student's results sorted by semester.
 
 # HTTP Status Codes
-
-| Status | Description |
-| 200 OK | Results retrieved successfully |
-| 201 Created | Result submitted successfully |
-| 400 Bad Request | Invalid marks or grading type |
-| 409 Conflict | Duplicate result submission |
+- 200 OK : Results retrieved successfully
+- 201 Created : Result submitted successfully
+- 400 Bad Request :  Invalid marks or grading type
+- 409 Conflict : Duplicate result submission
 
 # How to Run
 Make sure Java is installed, then run the following command in the project folder on Windows:
