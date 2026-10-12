@@ -26,7 +26,7 @@ A REST API application developed using Java and Spring Boot to manage student se
 # API Endpoints
 
 ## Submit Student Results
-POST /results?gradingType=PERCENTAGE
+`POST /results?gradingType=PERCENTAGE`
 Example JSON request:
 ```json
 {
@@ -36,10 +36,10 @@ Example JSON request:
 }
 ```
 For CGPA grading, use:
-POST /results?gradingType=CGPA
+`POST /results?gradingType=CGPA`
 
 ## Retrieve Student Results
-GET /results/STU001
+`GET /results/STU001`
 Returns the student's results sorted by semester.
 
 # HTTP Status Codes
